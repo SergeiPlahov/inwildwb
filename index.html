@@ -1,1 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Блог по продаже на Wildberries</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #2D2D2D;
+            color: #FFFFFF;
+        }
+        header {
+            background-color: #8B00FF;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+            color: #FFFFFF;
+        }
+        .content {
+            padding: 20px;
+        }
+        .blog-post {
+            margin-bottom: 40px;
+        }
+        .blog-post img {
+            max-width: 100%;
+        }
+        .contact-form {
+            background-color: #444444;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .contact-form label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: none;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background-color: #8B00FF;
+            color: #FFFFFF;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .social-links a {
+            color: #8B00FF;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Блог по продаже на Wildberries</h1>
+    </header>
+    <div class="content">
+        <div class="blog-post">
+            <h2>Как продавать на Wildberries</h2>
+            <p>Здесь будет текст блога с советами и рекомендациями по продаже на Wildberries.</p>
+            <img src="image.jpg" alt="Описание изображения">
+            <p>Видеоурок:</p>
+            <video controls>
+                <source src="video.mp4" type="video/mp4">
+                Ваш браузер не поддерживает воспроизведение видео.
+            </video>
+            <p>Таблица с данными:</p>
+            <table border="1">
+                <tr>
+                    <th>Колонка 1</th>
+                    <th>Колонка 2</th>
+                </tr>
+                <tr>
+                    <td>Данные 1</td>
+                    <td>Данные 2</td>
+                </tr>
+            </table>
+        </div>
+        <div class="contact-form">
+            <h2>Обратная связь</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Сообщение:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Отправить</button>
+            </form>
+        </div>
+        <div class="social-links">
+            <h2>Мои социальные сети</h2>
+            <a href="https://vk.com" target="_blank">VK</a>
+            <a href="https://instagram.com" target="_blank">Instagram</a>
+            <a href="https://facebook.com" target="_blank">Facebook</a>
+        </div>
+    </div>
+</body>
+</html>
 
